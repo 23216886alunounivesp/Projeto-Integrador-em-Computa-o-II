@@ -15,7 +15,7 @@
 
 ## 📋 Descrição do Projeto
 
-Este é um aplicativo web progressivo (PWA) para gerenciamento de aulas de Pilates. Ele foi desenvolvido usando React, Vite e `vite-plugin-pwa` para fornecer uma experiência de usuário rápida, responsiva e offline-first. O projeto foi desenvolvido como parte do curso da UNIVESP e tem como objetivo criar uma ferramenta para facilitar o gerenciamento de aulas de Pilates, oferecendo uma interface intuitiva e recursos para agendar aulas, gerenciar alunos e acompanhar o progresso dos alunos.
+
 
 Este projeto, no âmbito do "PJI240 - Projeto Integrador em Computação II", envolve todos os cursos do eixo de computação, com uma carga horária de 80 horas. O objetivo é desenvolver um software com framework web que utilize banco de dados, inclua script web (Javascript), nuvem, uso de API, acessibilidade, controle de versão e testes. Opcionalmente, pode incluir análises de dados. A ementa abrange resolução de problemas, levantamento de requisitos, desenvolvimento web com framework, HTML, CSS, linguagem de script, Banco de Dados, Controle de Versão, Nuvem, API, Acessibilidade, Testes e Análise de dados.
 
@@ -23,7 +23,7 @@ Este projeto, no âmbito do "PJI240 - Projeto Integrador em Computação II", en
 
 ## 📊 KANBAN DO PROJETO
 
-[![Kanban do Projeto](https://img.shields.io/badge/GitHub-Kanban-informational?style=for-the-badge&logo=github)](https://github.com/users/23216886alunounivesp/projects/1)
+[![Kanban do Projeto](https://b)](https://)
 
 Acesse o link acima para visualizar o quadro Kanban do projeto, onde as atividades e tarefas estão organizadas para acompanhamento e gestão do progresso.
 
@@ -64,48 +64,31 @@ Acesse o link acima para visualizar o quadro Kanban do projeto, onde as atividad
 
 **Objetivo:** Analisar o cenário do projeto e iniciar o levantamento bibliográfico para abordar o problema.
 
-| Atividade                                  | Responsável                 | Data de início | Data de finalização | Observação              |
-| ------------------------------------------ | --------------------------- | ------------- | ------------------ | ----------------------- |
-| Análise do problema e contexto do projeto | LEONARDO TOMAZ DE SOUZA NETO | 12/08/2025    | 19/08/2025         | -                      |
-| Levantamento de referencial teórico      | DANIEL MARTINS QUEIROZ      | 12/08/2025    | 24/08/2025         | Buscar fontes confiáveis |
-| Reunião para discussão do levantamento bibliográfico    | TODOS           | 23/08/2025    | 24/08/2025         | Consolidar informações |
+
 
 ### Quinzena 2 (25/08/2025 - 07/09/2025)
 
 **Objetivo:** Interagir com a comunidade externa, definir o problema e organizar o plano de ação.
 
-| Atividade                             | Responsável          | Data de início | Data de finalização | Observação                      |
-| ------------------------------------- | -------------------- | ------------- | ------------------ | ------------------------------- |
-| Entrevistas com comunidade externa    | LIVIA MARIA RONCOLETA | 25/08/2025    | 29/08/2025         | Aplicar questionários estruturados |
-| Consolidação das informações obtidas | MATEUS FUJITA SILVEIRA | 29/08/2025    | 31/08/2025         | Criar documento de referência   |
-| Planejamento das próximas etapas      | RODRIGO JOSE DE MELO   | 01/09/2025    | 07/09/2025         | Definir cronograma detalhado   |
+|
 
 ### Quinzena 3 (08/09/2025 - 21/09/2025)
 
 **Objetivo:** Definir título do trabalho, visitar o local de pesquisa, dar continuidade ao desenvolvimento do trabalho.
 
-| Atividade                      | Responsável            | Data de início | Data de finalização | Observação                |
-| ------------------------------ | ---------------------- | ------------- | ------------------ | ------------------------- |
-| Levantamento de referências  | TODOS                  | 08/09/2025    | 14/09/2025         | -                        |
-| Definição dos requisitos do projeto    | ROBERTO JOAQUIM DOS SANTOS | 15/09/2025    | 18/09/2025         | Registrar observações        |
-| Desenvolvimento inicial do projeto| WILLIAM YANG CHEN FAN    | 19/09/2025    | 21/09/2025         | Criar estrutura preliminar |
-| Desenvolvimento das interfaces do sistema  | LUCAS BRUNELLI MENDONCA  | 19/09/2025    | 21/09/2025         | A partir dos requisitos, desenhar as interfaces necessárias para o projeto |
+
 
 ### Quinzena 4 (22/09/2025 - 05/10/2025)
 
 **Objetivo:** Construir e apresentar a solução inicial (Relatório Parcial); coletar sugestões com a comunidade externa; entregar o Relatório Parcial (conforme modelos disponíveis no AVA).
 
-| Atividade                         | Responsável              | Data de início | Data de finalização | Observação               |
-| --------------------------------- | ------------------------ | ------------- | ------------------ | ------------------------ |
-| Redação do Relatório Parcial      | RODRIGO JOSE DE MELO     | 22/09/2025    | 29/09/2025         | Seguir modelo do AVA     |
-| Apresentação para a comunidade externa | LIVIA MARIA RONCOLETA  | 27/09/2025    | 01/10/2025         | Registrar feedbacks      |
-| Ajustes conforme sugestões recebidas     | LEONARDO TOMAZ DE SOUZA NETO | 02/10/2025    | 05/10/2025        | Refinar solução proposta     |
+
 
 ---
 
 ## 📚 Repositório Documental
 
-[![Documentos](https://img.shields.io/badge/OneDrive-Repositório_Documental-2196F3?style=for-the-badge&logo=microsoft-onedrive)](https://alunounivespbr-my.sharepoint.com/:f:/r/personal/23216886_aluno_univesp_br/Documents/PROJETO%20P1?csf=1&web=1&e=AJm0Qd1)
+[![Documentos](https://](https://)
 
 Acesse o link acima para visualizar o repositório de documentos e artefatos.
 
