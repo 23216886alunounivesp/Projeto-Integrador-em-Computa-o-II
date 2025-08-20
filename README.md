@@ -1,9 +1,6 @@
-# Projeto-Integrador-em-Computa-o-II
-Repositório destinado ao desenvolvimento do Projeto Integrador II
+.
 
-Com base no esqueleto do `README.md` fornecido, foi criado um novo Markdown para o projeto "Pilates PWA". Este novo arquivo foi atualizado com o tema, os novos participantes e os cronogramas ajustados para o segundo semestre de 2025.
-
-# Projeto Integrador II - Pilates PWA
+# Projeto Integrador II -
 
 <img src="https://user-images.githubusercontent.com/50468352/141820811-412e9364-7f5c-4889-826a-fcba23b92e23.png" width="350" />
 
