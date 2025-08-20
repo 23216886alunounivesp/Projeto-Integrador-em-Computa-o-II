@@ -1,6 +1,7 @@
-.
 
-# Projeto Integrador II -
+---
+
+# Projeto Integrador II - 
 
 <img src="https://user-images.githubusercontent.com/50468352/141820811-412e9364-7f5c-4889-826a-fcba23b92e23.png" width="350" />
 
@@ -15,17 +16,34 @@
 
 ## 📋 Descrição do Projeto
 
-
-
 Este projeto, no âmbito do "PJI240 - Projeto Integrador em Computação II", envolve todos os cursos do eixo de computação, com uma carga horária de 80 horas. O objetivo é desenvolver um software com framework web que utilize banco de dados, inclua script web (Javascript), nuvem, uso de API, acessibilidade, controle de versão e testes. Opcionalmente, pode incluir análises de dados. A ementa abrange resolução de problemas, levantamento de requisitos, desenvolvimento web com framework, HTML, CSS, linguagem de script, Banco de Dados, Controle de Versão, Nuvem, API, Acessibilidade, Testes e Análise de dados.
 
 ---
 
 ## 📊 KANBAN DO PROJETO
 
-[![Kanban do Projeto](https://b)](https://)
+[![Kanban do Projeto](https://img.shields.io/badge/GitHub-Kanban-informational?style=for-the-badge&logo=github)](https://)
 
 Acesse o link acima para visualizar o quadro Kanban do projeto, onde as atividades e tarefas estão organizadas para acompanhamento e gestão do progresso.
+
+---
+##  visually-hidden Linha do Tempo Visual do Projeto
+
+```mermaid
+gantt
+    title Linha do Tempo do Projeto
+    dateFormat  DD/MM/YYYY
+    axisFormat %d/%m
+    section Fase 1: Pesquisa e Planejamento
+    Análise e Bibliografia :crit, 11/08/2025, 24/08/2025
+    Plano de Ação         :crit, 25/08/2025, 07/09/2025
+    section Fase 2: Desenvolvimento Inicial
+    Desenvolvimento e Requisitos :active, 08/09/2025, 21/09/2025
+    Relatório Parcial            :crit, 22/09/2025, 05/10/2025
+    section Fase 3: Finalização e Entrega
+    Desenvolvimento Final e Vídeo : 06/10/2025, 02/11/2025
+    Entrega Final                 :crit, 03/11/2025, 16/11/2025
+```
 
 ---
 
@@ -64,31 +82,63 @@ Acesse o link acima para visualizar o quadro Kanban do projeto, onde as atividad
 
 **Objetivo:** Analisar o cenário do projeto e iniciar o levantamento bibliográfico para abordar o problema.
 
+| Atividade | Responsável | Data de início | Data de finalização | Observação |
+|---|---|---|---|---|
 
 
 ### Quinzena 2 (25/08/2025 - 07/09/2025)
 
 **Objetivo:** Interagir com a comunidade externa, definir o problema e organizar o plano de ação.
 
-|
+| Atividade | Responsável | Data de início | Data de finalização | Observação |
+|---|---|---|---|---|
 
 ### Quinzena 3 (08/09/2025 - 21/09/2025)
 
 **Objetivo:** Definir título do trabalho, visitar o local de pesquisa, dar continuidade ao desenvolvimento do trabalho.
 
-
+| Atividade | Responsável | Data de início | Data de finalização | Observação |
+|---|---|---|---|---|
+ |
 
 ### Quinzena 4 (22/09/2025 - 05/10/2025)
 
-**Objetivo:** Construir e apresentar a solução inicial (Relatório Parcial); coletar sugestões com a comunidade externa; entregar o Relatório Parcial (conforme modelos disponíveis no AVA).
+**Objetivo:** Construir e apresentar a solução inicial (Relatório Parcial); coletar sugestões com a comunidade externa; entregar o Relatório Parcial.
+
+| Atividade | Responsável | Data de início | Data de finalização | Observação |
+|---|---|---|---|---|
 
 
+---
+
+## ✅ Requisitos Técnicos do Projeto
+
+Esta seção serve como um controle para garantir que todos os requisitos técnicos do Projeto Integrador II sejam atendidos.
+
+- [ ] **Desenvolvimento com Framework Web:** O projeto utiliza React com Vite
+  - *Material de apoio:* [Documentação Oficial do React](https://react.dev/learn)
+- [ ] **Uso de Banco de Dados:** Implementar um banco de dados para armazenar informações .
+  - *Material de apoio:* [O que é um Banco de Dados?](https://www.oracle.com/br/database/what-is-database/) | [Firebase Realtime Database](https://firebase.google.com/docs/database?hl=pt-br)
+- [ ] **Inclusão de Script Web (JavaScript):** O projeto é construído sobre JavaScript e seus ecossistemas.
+  - *Material de apoio:* [Guia de JavaScript na MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [ ] **Hospedagem em Nuvem:** O ... será implantado em um serviço de nuvem.
+  - *Material de apoio:* [O que é IaaS, PaaS e SaaS?](https://www.redhat.com/pt-br/topics/cloud-computing/iaas-vs-paas-vs-saas) | [Documentação da Vercel](https://vercel.com/docs)
+- [ ] **Uso de API:** O projeto deve consumir ou criar APIs para a comunicação de dados.
+  - *Material de apoio:* [O que são APIs?](https://www.redhat.com/pt-br/topics/api/what-are-application-programming-interfaces)
+- [ ] **Acessibilidade:** Garantir que a aplicação seja acessível a todos os usuários (padrões WCAG).
+  - *Material de apoio:* [Guia de Acessibilidade (a11y) na MDN](https://developer.mozilla.org/pt-BR/docs/Web/Accessibility)
+- [ ] **Controle de Versão:** O código-fonte é gerenciado com Git e hospedado no GitHub.
+  - *Material de apoio:* [Documentação do Git](https://git-scm.com/doc)
+- [ ] **Testes:** Implementar testes para garantir a qualidade e o funcionamento do software.
+  - *Material de apoio:* [Documentação do Jest (Test Runner)](https://jestjs.io/pt-BR/) | [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+- [ ] **Análise de Dados (Opcional):** Incluir visualizações ou análises de dados coletados.
+  - *Material de apoio:* [Biblioteca D3.js para visualização de dados](https://d3js.org/)
 
 ---
 
 ## 📚 Repositório Documental
 
-[![Documentos](https://](https://)
+[![Documentos](https://img.shields.io/badge/OneDrive-Repositório_Documental-2196F3?style=for-the-badge&logo=microsoft-onedrive)](https://alunounivespbr-my.sharepoint.com/:f:/r/personal/23216886_aluno_univesp_br/Documents/PROJETO%20INTEGRADOR%20)
 
 Acesse o link acima para visualizar o repositório de documentos e artefatos.
 
