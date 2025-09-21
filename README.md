@@ -1,7 +1,9 @@
 
+
 ---
 
-# Projeto Integrador II - 
+```markdown
+# Projeto Integrador II - Pilates PWA
 
 <img src="https://user-images.githubusercontent.com/50468352/141820811-412e9364-7f5c-4889-826a-fcba23b92e23.png" width="350" />
 
@@ -27,7 +29,7 @@ Este projeto, no âmbito do "PJI240 - Projeto Integrador em Computação II", en
 Acesse o link acima para visualizar o quadro Kanban do projeto, onde as atividades e tarefas estão organizadas para acompanhamento e gestão do progresso.
 
 ---
-##  visually-hidden Linha do Tempo Visual do Projeto
+##   visually-hidden Linha do Tempo Visual do Projeto
 
 ```mermaid
 gantt
@@ -44,6 +46,60 @@ gantt
     Desenvolvimento Final e Vídeo : 06/10/2025, 02/11/2025
     Entrega Final                 :crit, 03/11/2025, 16/11/2025
 ```
+
+---
+
+## 🗺️ Mapa do Projeto e Roteiro de Desenvolvimento
+
+Esta seção detalha a estrutura completa do projeto, dividida em macrofases, para fornecer uma visão clara do progresso atual e dos próximos passos.
+
+### **Macrofase 1: Fundação e Arquitetura** (Status: ✅ Concluída)
+*   **Fase 1.1: Configuração do Ambiente e Ferramentas**
+    *   Setup do ambiente de desenvolvimento (WSL2, Node, VS Code)
+    *   Inicialização do projeto React com Vite e configuração do repositório no GitHub
+    *   Criação e configuração dos serviços de nuvem (Supabase, Netlify)
+*   **Fase 1.2: Definição da Arquitetura e Estrutura**
+    *   Desenho do esquema do banco de dados (PostgreSQL)
+    *   Implementação do sistema de rotas (React Router) e autenticação global (React Context)
+
+### **Macrofase 2: Funcionalidades Administrativas** (Status: ✅ Concluída)
+*   **Fase 2.1: Autenticação e Autorização**
+    *   Implementação do fluxo de login com Supabase Auth (Google OAuth)
+    *   Criação de rotas protegidas para diferenciar papéis (Instrutor vs. Aluno)
+*   **Fase 2.2: Construção do Dashboard do Instrutor**
+    *   Layout principal do dashboard com navegação
+    *   Implementação dos CRUDs completos para Aulas, Alunos e Instrutores
+*   **Fase 2.3: Gerenciamento de Conteúdo Dinâmico**
+    *   CRUD para o conteúdo das páginas "Principal" e "Nosso Espaço"
+
+### **Macrofase 3: Funcionalidades para o Usuário Final (Aluno)** (Status: 🟡 Em Andamento)
+*   **Fase 3.1: Construção da Área do Aluno (Visualização)**
+    *   ✅ Implementação do Calendário de Aulas do Aluno
+    *   ✅ Implementação da lista de Exercícios do Aluno
+    *   ✅ Implementação da seção de Avisos do Estúdio
+*   **Fase 3.2: Ferramentas de Gestão para o Instrutor (Interação)**
+    *   ✅ Implementação da Gestão de Matrículas (Aula -> Alunos)
+    *   ✅ Implementação da Gestão de Avisos (CRUD de Avisos)
+    *   🟡 **Implementação da Gestão de Exercícios por Aluno (Em Andamento)**
+
+### **Macrofase 4: Refinamento e Qualidade** (Status: ⬜ Pendente)
+*   **Fase 4.1: Melhorias na Experiência do Usuário (UX)**
+    *   Implementar sistema de notificações "Toast"
+    *   Implementar indicadores de carregamento visuais (Spinners)
+*   **Fase 4.2: Otimização Técnica e PWA**
+    *   Refatorar código (ex: mover estilos inline para CSS)
+    *   Otimizar o comportamento offline do Service Worker
+
+### **Macrofase 5: Preparação para Produção e Lançamento** (Status: ⬜ Pendente)
+*   **Fase 5.1: Configuração Final e Segurança**
+    *   Configurar domínio customizado
+    *   Revisar e finalizar todas as Políticas de Segurança (RLS) no Supabase
+*   **Fase 5.2: Conteúdo e Testes Finais**
+    *   Cadastrar todo o conteúdo real do estúdio
+    *   Realizar testes completos de ponta a ponta (E2E)
+*   **Fase 5.3: Lançamento e Pós-Lançamento**
+    *   Go-live do projeto
+    *   Monitorar logs de erros e performance
 
 ---
 
@@ -79,35 +135,24 @@ gantt
 ## 📅 Cronograma de Atividades Detalhado
 
 ### Quinzena 1 (11/08/2025 - 24/08/2025)
-
 **Objetivo:** Analisar o cenário do projeto e iniciar o levantamento bibliográfico para abordar o problema.
-
 | Atividade | Responsável | Data de início | Data de finalização | Observação |
 |---|---|---|---|---|
 
-
 ### Quinzena 2 (25/08/2025 - 07/09/2025)
-
 **Objetivo:** Interagir com a comunidade externa, definir o problema e organizar o plano de ação.
-
 | Atividade | Responsável | Data de início | Data de finalização | Observação |
 |---|---|---|---|---|
 
 ### Quinzena 3 (08/09/2025 - 21/09/2025)
-
 **Objetivo:** Definir título do trabalho, visitar o local de pesquisa, dar continuidade ao desenvolvimento do trabalho.
-
 | Atividade | Responsável | Data de início | Data de finalização | Observação |
 |---|---|---|---|---|
- |
 
 ### Quinzena 4 (22/09/2025 - 05/10/2025)
-
 **Objetivo:** Construir e apresentar a solução inicial (Relatório Parcial); coletar sugestões com a comunidade externa; entregar o Relatório Parcial.
-
 | Atividade | Responsável | Data de início | Data de finalização | Observação |
 |---|---|---|---|---|
-
 
 ---
 
@@ -115,24 +160,15 @@ gantt
 
 Esta seção serve como um controle para garantir que todos os requisitos técnicos do Projeto Integrador II sejam atendidos.
 
-- [ ] **Desenvolvimento com Framework Web:** O projeto utiliza React com Vite
-  - *Material de apoio:* [Documentação Oficial do React](https://react.dev/learn)
-- [ ] **Uso de Banco de Dados:** Implementar um banco de dados para armazenar informações .
-  - *Material de apoio:* [O que é um Banco de Dados?](https://www.oracle.com/br/database/what-is-database/) | [Firebase Realtime Database](https://firebase.google.com/docs/database?hl=pt-br)
-- [ ] **Inclusão de Script Web (JavaScript):** O projeto é construído sobre JavaScript e seus ecossistemas.
-  - *Material de apoio:* [Guia de JavaScript na MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-- [ ] **Hospedagem em Nuvem:** O ... será implantado em um serviço de nuvem.
-  - *Material de apoio:* [O que é IaaS, PaaS e SaaS?](https://www.redhat.com/pt-br/topics/cloud-computing/iaas-vs-paas-vs-saas) | [Documentação da Vercel](https://vercel.com/docs)
-- [ ] **Uso de API:** O projeto deve consumir ou criar APIs para a comunicação de dados.
-  - *Material de apoio:* [O que são APIs?](https://www.redhat.com/pt-br/topics/api/what-are-application-programming-interfaces)
+- [x] **Desenvolvimento com Framework Web:** O projeto utiliza **React** com **Vite**.
+- [x] **Uso de Banco de Dados:** Implementado com **Supabase** (PostgreSQL).
+- [x] **Inclusão de Script Web (JavaScript):** O projeto é construído sobre JavaScript, JSX e Node.js para as funções backend.
+- [x] **Hospedagem em Nuvem:** O PWA e as Funções Serverless são implantados na **Netlify**.
+- [x] **Uso de API:** O projeto cria sua própria API backend utilizando **Netlify Functions** para se comunicar com o Supabase.
 - [ ] **Acessibilidade:** Garantir que a aplicação seja acessível a todos os usuários (padrões WCAG).
-  - *Material de apoio:* [Guia de Acessibilidade (a11y) na MDN](https://developer.mozilla.org/pt-BR/docs/Web/Accessibility)
-- [ ] **Controle de Versão:** O código-fonte é gerenciado com Git e hospedado no GitHub.
-  - *Material de apoio:* [Documentação do Git](https://git-scm.com/doc)
+- [x] **Controle de Versão:** O código-fonte é gerenciado com **Git** e hospedado no **GitHub**.
 - [ ] **Testes:** Implementar testes para garantir a qualidade e o funcionamento do software.
-  - *Material de apoio:* [Documentação do Jest (Test Runner)](https://jestjs.io/pt-BR/) | [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
 - [ ] **Análise de Dados (Opcional):** Incluir visualizações ou análises de dados coletados.
-  - *Material de apoio:* [Biblioteca D3.js para visualização de dados](https://d3js.org/)
 
 ---
 
@@ -194,6 +230,8 @@ Este projeto foi construído usando as seguintes tecnologias:
 
 *   **React:** Uma biblioteca JavaScript para construir interfaces de usuário.
 *   **Vite:** Um bundler de desenvolvimento rápido e eficiente para aplicativos web modernos.
+*   **Supabase:** Backend-as-a-Service (BaaS) com banco de dados PostgreSQL e Autenticação.
+*   **Netlify:** Plataforma para hospedagem (CDN) e execução de funções serverless (CI/CD).
 *   **`vite-plugin-pwa`:** Um plugin Vite para gerar automaticamente arquivos Service Worker e manifest para PWAs.
 *   **JavaScript:** A linguagem de programação principal do aplicativo.
 *   **CSS:** Para estilização e layout.
@@ -220,7 +258,7 @@ Antes de começar, você precisará ter as seguintes ferramentas instaladas em s
 
 2.  **Navegue até o Diretório do Projeto:**
     ```bash
-    cd Pilates-PWA
+    cd Pilates-PWA 
     ```
 
 3.  **Instale as Dependências:**
@@ -251,3 +289,4 @@ Este projeto está sob a licença MIT.
 <div align="center">
   <b>© 2025 UNIVESP - Projeto Integrador II</b>
 </div>
+```
