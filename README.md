@@ -2,7 +2,7 @@
 
 ---
 
-```markdown
+
 # Projeto Integrador II - Pilates PWA
 
 <img src="https://user-images.githubusercontent.com/50468352/141820811-412e9364-7f5c-4889-826a-fcba23b92e23.png" width="350" />
